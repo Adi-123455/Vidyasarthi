@@ -1,0 +1,83 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body{
+            background-color: aliceblue;
+        }
+        .header{
+        
+        display:flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+        background-color: red;
+    }
+    #h1{
+        font-size: 45px;
+    }
+    .main-content{
+        display:flex;
+        flex-direction:row;
+        justify-content: space-around;
+        margin-top: 10px;
+        
+    }
+    #img{
+        /* height: 30%;
+        width: 35%;
+        margin-left: 30px; */
+        background-size:cover;
+    }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1 id="h1">Sarla Vidyamandir </h1>
+        <h2>(Vidya-Sarthi)</h2>
+    </div>
+
+    <main class="main-content">
+        <div>
+            <section id="mission">
+                <h2>Mission & Vision</h2>
+                <p>Our mission is to provide quality education and empower students to achieve their goals.</p>
+                <p>Our vision is to be a lead students towards the center of excellence.</p>
+            </section>
+    
+            <section id="study-materials">
+                <h2>Study Materials and eResources</h2>
+                <ul>
+                    <li><a href="/">ePathshala</a></li>
+                    <li><a href="https://diksha.gov.in" onclick="showAlert(event)">Diksha</a></li>
+                    <li><a href="https://pmevidya.education.gov.in" onclick="showAlert(event)">PM eVidya</a></li>
+                    <li><a href="https://itpd.ncert.gov.in" onclick="showAlert(event)">Nishta</a></li>
+                </ul>
+            </section>
+    
+            <section id="exams">
+                <h2>Competitive & Scholarship Exams</h2>
+                 <ul>
+                    <li><a href="https://school.careers360.com/articles/nmms-maharashtra#toc_2" target="_blank">NMMS</a></li>
+                    <li><a href="https://ncert.nic.in/national-talent-examination.php" target="_blank">NTSE</a></li>
+                    <li><a href="https://dsel.education.gov.in/nsigse" target="_blank">NSIGSE (FOR GIRLS)</a></li>
+                </ul>
+            </section>
+
+        </div>
+        <div id="img">
+        <img src="img.jpg" >
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; YCCE(AIDS) . All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

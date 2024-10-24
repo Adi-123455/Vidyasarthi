@@ -1,0 +1,67 @@
+body{
+    background-image: ('https://assets.onecompiler.app/42w3f9ydz/42w3fhfm5/ycee%20image.jpeg');
+     background-size: 50%,100%; /* or 'contain' or specific dimensions like ' 100%' */
+      
+      /* Optional: Set the background position */
+      background-position: center; /* or 'top', 'bottom', 'left', 'right' */
+      
+      /* Optional: Set the background repeat */
+      background-repeat: no-repeat; /* Prevents the image from repeating */
+      
+      /* Optional: Set a fallback background color */
+      background-color: #f0f0f0; /* This color will show if the image fails to load */
+      
+      /* Optional: Set height and margin */
+      /* Full viewport height */
+      margin: 100; 
+  }
+  .header{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+  }
+  .container {
+      display: flex;               /* Enable flexbox */
+      justify-content: center;     /* Center horizontally */
+      align-items: center;         /* Center vertically */
+      height: 100vh;              /* Full height of the viewport */
+  }
+  
+  header {
+      background-color: red;
+      color: white;
+      padding: 10px 0;
+      text-align: center;
+      
+  }
+  
+  nav ul {
+      list-style-type: none;
+      padding: 0;
+  }
+  
+  nav ul li {
+      display: inline;
+      margin: 0 15px;
+  }
+  
+  nav ul li a {
+      color: white;
+      text-decoration: none;
+  }
+  
+  main {
+      padding: 20px;
+  }
+  
+  section {
+      margin-bottom: 20px;
+  }
+  
+  footer {
+      text-align: center;
+      padding: 10px 0;
+      background-color: grey;
+  }
